@@ -1,0 +1,24 @@
+*{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #1f2641;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+p,b{
+    font-size: 25px;
+    align-content: center;
+    text-align: left;
+}

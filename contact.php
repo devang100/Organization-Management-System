@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Education website</title>
+    <!--iconscout-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!--Montsrerrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="style.css">
+    <link rel="Stylesheet" href="contact.css">
+    <style>
+        body {
+            background-image: url();
+        }
+        .course{
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav_continer">
+            <a href="index.php"><h4>Devang Patel Institute of Advance Technology and Research</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="course.php">Course</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="map.php">Map</a></li>
+                <li><a href="signup.php">Login / Signup</a></li>
+                </ul>
+                <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+
+<!--------------navbar end--------------->
+
+
+<section class="contact_form">
+    <div class="container contact_container">
+        <aside class="contact_aside">
+        <!-- <div class="aside_image">
+            <img src="">
+        </div> -->
+        <h2>Contact Us</h2>
+        <p>Please Contact for query</p>
+            <ul class="contact_details">
+                <li>
+                    <i class="uil uil-phone-times"></i>
+                    <h5>+91 9904499324<br>+91 99041233639</h5>
+                </li>
+                <li>
+                    <i class="uil uil-envelope"></i>
+                    <h5>21dcs071@charusat.edu.in<br>21dcs072@charusat.edu.in</h5>
+                </li>
+                <li>
+                    <i class="uil uil-location-point"></i>
+                    <h5>Vadodara</h5>
+                </li>
+            </ul>
+            <ul class="contact_socials">
+                <li><a href="https://facebook.com"><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href="https://instagram.com"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="https://twitter.com"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="https://linkedin.com"><i class="uil uil-linkedin-alt"></i></a></li>
+            </ul>
+        </aside>
+
+
+        <!--------------contact end---------->
+
+        <form action="https://formspree.io/f/xvoledzk" method="POST" class="contact_form">
+            <div class="form_name">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="Email Address" placeholder="Your Emial Address" required>
+            <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+            <button type="submit" class ="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+<footer>
+    <div class="container footer_container">
+
+        <div class="footer_1">
+            <a href="index.php" class ="footer_logo"><h4>DEPSTAR</h4></a>
+        <p>
+            We are committed to ensuring that our website is accessible to everyone. 
+            If you have any questions or suggestions regarding the accessibility of this site, please contact us.
+        </p>
+        </div>
+
+        <div class="footer_2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="course.php">Course</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_3">
+            <h4>Primacy</h4>
+            <ul class="Privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refunds Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+91 9904499324</p>
+                <p>+91 99041233639</p>
+            </div>
+            <ul class="footer_socials">
+                <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer_copyright">
+        <small>Copyright &copy; DEPSTAR</small>
+    </div>
+</footer>
+
+<!--------------footer ends------------->
+
+
+<script src="main.js"></script>
+</body>
+        </html>
